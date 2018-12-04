@@ -22,4 +22,11 @@ cd ./path/to/your/git/repo/
 # ... and run it:
 
 ./git-author-stats.sh
+
+# Additionally, if you want to run this script as a command, you can copy it
+# to your `/usr/bin` directory
+cp ./git-author-stats.sh /usr/bin/git-author-stats
+
+# ... then just run it as a command:
+git-author-stats
 ```
