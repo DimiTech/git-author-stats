@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -d .git ]
+if [ ! -d .git/ ] && [ ! -f .git ]
 then
   echo "Not a git repository root!"
   exit 1
